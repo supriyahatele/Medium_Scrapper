@@ -1,7 +1,8 @@
+const { scrapeArticle } = require("../config/scapper");
 const Article = require("../models/articleModel");
 
 const createScrapArticle=  async (req, res) => {
-    const { topic } = req.query;
+    const { topic } = req.body;
   
     if (!topic) {
       return res.status(400).json({ error: 'Topic is required' });

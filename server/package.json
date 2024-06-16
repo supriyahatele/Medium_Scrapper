@@ -1,5 +1,5 @@
 {
-  "name": "medium-article-scraper-and-viewer",
+  "name": "medium-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supriyahatele/Medium-Article-Scraper-And-Viewer.git"
+    "url": "git+https://github.com/supriyahatele/Medium-Scraper.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/supriyahatele/Medium-Article-Scraper-And-Viewer/issues"
+    "url": "https://github.com/supriyahatele/Medium-Scraper/issues"
   },
-  "homepage": "https://github.com/supriyahatele/Medium-Article-Scraper-And-Viewer#readme",
+  "homepage": "https://github.com/supriyahatele/Medium-Scraper#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
